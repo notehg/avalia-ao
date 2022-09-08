@@ -1,0 +1,49 @@
+
+html{
+    color: darkcyan;
+    font-family: serif;
+    background-color: darkturquoise;
+    background-image: url("b.jpg"), url("m.jpg");
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+p{
+    text-align: center;
+    color: darkred;
+}
+
+h4{
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width:500px) {
+
+ html{
+        color: rgb(255, 239, 20);
+       font-family: serif;
+        background-color: rgb(16, 185, 10);
+        background-image:  url("m.jpg");
+    }
+    
+    h1{
+        text-align: start;
+        color: rgb(128, 2, 2);
+    }
+    
+    p{
+        text-align: center;
+        color: rgb(87, 15, 69);
+    }
+    
+    h4{
+        text-align: center;
+    }
+    
+}
